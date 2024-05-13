@@ -1,0 +1,153 @@
+#title{
+  background-color: #81C6E8;
+  color: #fff;
+  position: relative;
+}
+
+/* Navbar */
+.navbar-brand{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:2rem;
+}
+.nav-link{
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 10px;
+}
+h1{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.download-button{
+  margin: 1rem 0.5rem;
+}
+.iphone-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  left: 30%;
+}
+.container-fluid{
+  padding: 2% 10% 0 10%;
+  height: 45rem;
+}
+.row{
+  padding-top: 5%;
+}
+
+/* feature box */
+#features{
+  padding: 7% 13%;
+  position: relative;
+  background-color: #fff;
+
+
+}
+
+.feature-box{
+  padding: 5%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.feature-icon{
+  color:  #81C6E8;
+  padding-bottom: 2rem;
+}
+.feature-icon:hover{
+  color: #81C6E8;
+}
+
+
+
+.features-text{
+  color: #73777B;
+}
+
+/* testimonials */
+.testimonial-text{
+font-family: 'Josefin Sans', sans-serif;
+color: #fff;
+font-weight: bold;
+font-size: 2.5rem;
+padding: 0 3.5rem;
+
+}
+#testimonials{
+
+  background-color:  #81C6E8;
+  text-align: center;
+
+}
+.testimonial-image{
+  margin:  2.5rem 2rem 0 2rem;
+  width: 12%;
+  border-radius: 100%;
+}
+.carousel-inner{
+  padding: 9% 15%;
+}
+
+#press{
+  background-color:  #81C6E8;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+ .press-images{
+   width: 10%;
+  margin: 1rem 3rem;
+
+ }
+
+ /* price section */
+
+ #pricing{
+   padding: 7% 2%;
+   text-align: center;
+ }
+
+ #cta{
+   background-color: #81C6E8;
+   text-align:center;
+   padding: 7% 7% 5% 7%;
+
+ }
+ h3{
+   font-size: 2.5rem;
+   color: #fff;
+   margin-bottom: 2rem;
+ }
+
+
+ #footer{
+   padding: 5%;
+   text-align: center;
+ }
+ .contact-icons{
+   margin: 10px;
+   text-decoration: none;
+   color: black;
+ }
+ .contact-icons:hover{
+   color: #81C6E8;
+ }
+
+
+ @media (max-width : 1000px) {
+
+   #title{
+     text-align: center;
+     position: static;
+     padding-bottom: 7rem;
+   }
+
+
+
+   .iphone-image{
+     width: 40%;
+    position: static;
+     transform: rotate(0);
+   }
+
+ }
